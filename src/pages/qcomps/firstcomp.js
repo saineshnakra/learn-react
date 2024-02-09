@@ -1,1 +1,13 @@
-function MyComp() {}
+export  function MyComp() {
+return (<div>
+    <h1>
+        My first Component
+    </h1>
+    <ol>
+        <li>Conponents: UI Building Block</li>
+        <li>Defining a Component</li>
+        <li>Using a component</li>
+    </ol>
+</div>)
+
+}
