@@ -7,11 +7,13 @@ export default function Gallery() {
   function handleClick() {
     setIndex(index + 1);
   }
+  function useless(){
+  }
 
   let sculpture = sculptureList[index];
   return (
     <>
-      <button onClick={handleClick}>
+      <button onClick={index<11?handleClick:useless}>
         Next
       </button>
       <h2>
